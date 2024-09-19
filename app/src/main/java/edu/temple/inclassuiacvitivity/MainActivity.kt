@@ -9,6 +9,7 @@ import android.widget.AdapterView.OnItemSelectedListener
 // TODO Replace ArrayAdapter with your implementation of TextSizeAdapter
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
