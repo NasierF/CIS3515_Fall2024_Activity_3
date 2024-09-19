@@ -7,7 +7,7 @@ import android.widget.BaseAdapter
 
 class TextSizeAdapter(private val context:Context, private val numbers: Array<Int>) : BaseAdapter() {
 
-    //private val
+    private val nums = numbers
 
     override fun getCount() = numbers.size
 
@@ -24,6 +24,7 @@ class TextSizeAdapter(private val context:Context, private val numbers: Array<In
 
     override fun getItemId(position: Int): Long {
         TODO("Not yet implemented")
+        //return position casted
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
